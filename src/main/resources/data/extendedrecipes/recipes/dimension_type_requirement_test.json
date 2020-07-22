@@ -1,0 +1,23 @@
+{
+  "type": "extendedrecipes:crafting_shaped_extended",
+  "_comment": [
+    "A recipe with a dimension type requirement who allow craft only if the crafter is in the required dimension"
+  ],
+  "pattern": [
+    "ddd"
+  ],
+  "key": {
+    "d": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "requirements": [
+    {
+      "type": "extendedrecipes:dimension_type",
+      "dimension": "minecraft:the_nether"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cobblestone"
+  }
+}

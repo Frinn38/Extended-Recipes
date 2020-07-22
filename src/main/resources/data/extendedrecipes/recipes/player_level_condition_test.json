@@ -1,0 +1,23 @@
+{
+  "type": "extendedrecipes:crafting_shaped_extended",
+  "_comment": [
+    "A recipe with a player level conditional ingredient who allow craft only if the player have the required xp level"
+  ],
+  "pattern": [
+    "dd"
+  ],
+  "key": {
+    "d": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "requirements": [
+    {
+      "type": "extendedrecipes:time",
+      "time": ">=12000"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cobblestone"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "recipes" : {
+    "crafting_shaped_extended": "extendedrecipes.recipes.ShapedRecipeExtended.Serializer"
+  }
+}
